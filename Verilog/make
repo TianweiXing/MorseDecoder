@@ -1,0 +1,2 @@
+iverilog -o main main.v neuron.v rom.v net.v hidden.v outlayer.v comparator.v
+vvp main
